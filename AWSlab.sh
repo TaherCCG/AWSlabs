@@ -232,8 +232,10 @@ echo
 echo " Using $IP to login to AWS SSH Labs"
 echo
 echo " Please Verify the IP address before you continue"
-echo 
-pwd # Prints Working directory.
+echo
+Logo
+echo
+pwd   #Prints Working directory.
 read -p "Do you want to continue y/n? " -n 1 -r #Asks to confirm if you want to continue.
 echo # (optional) move to a new line.
 if [[ ! $REPLY =~ ^[Yy]$ ]] #
